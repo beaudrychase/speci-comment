@@ -15,4 +15,9 @@ Problems:
 			- Labeled data: Mechanical Turk or Manually do it myself.
 	Building a tool that uses the model from the command line:
 		- Takes source code as input
-		- Outputs lines with vague comments.   
+		- Outputs lines with vague comments.
+
+
+First Steps:
+	- Use one of the models that already exists and get the rest of the tool working with it
+	- only try to get python working. 
