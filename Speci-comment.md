@@ -5,6 +5,7 @@ End Goal:
 	Create a plugin of some sort that gives you real time feedback on the specificity of your comments in code with the idea being that more specific comments are better comments.
 	OR
 	Create a command line tool that you give your source code to and it spits out some sort of output that tells you which lines of comments are very vague. (This seems easier to do and more flexible)
+		-make this tool into a python package
 
 
 Problems:
