@@ -1,6 +1,6 @@
 Speci-comment
 
-End Goal:
+    End Goal:
 	
 	Create a plugin of some sort that gives you real time feedback on the specificity of your comments in code with the idea being that more specific comments are better comments.
 	OR
@@ -8,7 +8,7 @@ End Goal:
 		-make this tool into a python package
 
 
-Problems:
+    Problems:
 	Getting a model that can predict specificity for comments
 		-[Model Already Exists](https://github.com/wjko2/Domain-Agnostic-Sentence-Specificity-Prediction#domain-agnostic-real-valued-specificity-prediction): This model was built to predict specificity of sentences. It is not domain specific. I will need a lot of unlabeled data, and some labeled data (They used mechanical turk, but that is expensive, but what else could I do.)
 		- Getting Data: [Here is data](https://github.com/src-d/awesome-machine-learning-on-source-code#datasets) That link has links to a bunch of different sources of aggregated source code (with the comments in it.)
@@ -19,6 +19,11 @@ Problems:
 		- Outputs lines with vague comments.
 
 
-First Steps:
+    First Steps:
 	- Use one of the models that already exists and get the rest of the tool working with it
 	- only try to get python working. 
+
+	File "file_name", Line x
+		<The line with Error/Warning>
+	NameOfError: details about error.
+	
