@@ -3,7 +3,7 @@ import json
 from comment_parser import comment_parser
 
 count = 0
-for filename in glob.iglob("/home/pi/" + '**/*.java', recursive=True):
+for filename in glob.iglob("/home/pi/java_projects" + '**/*.java', recursive=True):
      print(filename)
      json_obj = json.dump("{'text':[]}")
      all_comments = comment_parser.extract_comments(filename, "text/x-java-source")
